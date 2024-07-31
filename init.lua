@@ -13,5 +13,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("vim-settings")
 require("lazy").setup("plugins")
+require('nvim-web-devicons').get_icons()
 
 vim.opt.termguicolors = true
